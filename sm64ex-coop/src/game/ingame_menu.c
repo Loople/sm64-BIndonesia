@@ -2645,7 +2645,7 @@ void render_pause_camera_options(s16 x, s16 y, s8 *index, s16 xIndex) {
 
 void render_pause_course_options(s16 x, s16 y, s8 *index, s16 yIndex) {
     u8 TEXT_EXIT_TO_CASTLE[16] = { DIALOG_CHAR_TERMINATOR };
-    str_ascii_to_dialog("KELUAR KE ISTANA", TEXT_EXIT_TO_CASTLE, 15);
+    str_ascii_to_dialog("KEDALAM ISTANA", TEXT_EXIT_TO_CASTLE, 15);
 
 #ifdef VERSION_EU
     u8 textContinue[][10] = {
