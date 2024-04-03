@@ -23,7 +23,7 @@
 
 // Ingame Menu
 #define TEXT_PAUSE _("MENJEDA") // Pause text, Castle Courses
-#define TEXT_HUD_CONGRATULATIONS _("SELAMAT TELAH BERHASIL") // Course Complete Text, Bowser Courses
+#define TEXT_HUD_CONGRATULATIONS _("SELAMAT BERHASIL") // Course Complete Text, Bowser Courses
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
 
