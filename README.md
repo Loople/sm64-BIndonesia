@@ -34,20 +34,14 @@ __________________________________________________
 
 **Kompilasi**
 
-Setelah sebelumnya selesai sekarang waktunya mengkompilasi gamenya. Kamu dapa menggunakan dua perintah, namun kau harus memilih salah satu
+Setelah sebelumnya selesai sekarang waktunya mengkompilasi gamenya.
 
-Pertama:
 ```
 make
 ```
-
-atau yang ke dua:
-```
-make -j$(nproc)
-```
 __________________________________________________
 
-Jika kamu telah melakukan kompilasi sebelumnya dan meninggalkan hasilnya begitusaja ataupun
+Jika kamu telah melakukan kompilasi sebelumnya dan meninggalkan hasilnya begitu saja ataupun
 kedua perintah itu tidak berhasil.
 
 Kamu perlu melakukan ini.
@@ -56,4 +50,5 @@ make clean
 ```
 
 ini akan membuat hasil kompilasi sebelumnya terhapus.
+Lalu lakukan kompilasi ulang untuk menerapkannya.
 __________________________________________________
