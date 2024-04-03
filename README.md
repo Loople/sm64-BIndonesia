@@ -12,12 +12,12 @@ Sebelum melakukan proses *Compile* atau kompilasi pada proses sebelumnya, untuk 
 
 Klon repositori
 ```
-git clone https://github.com/Loople/sm64-BIndonesia.git
+git clone https://github.com/Loople/sm64indo.git
 ```
 
 Membuka folder dari *termux*
 ```
-cd sm64-BIndonesia
+cd sm64indo
 ```
   
 
