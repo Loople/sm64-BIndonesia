@@ -218,13 +218,13 @@ const char *get_level_name_ascii(s16 courseNum, s16 levelNum, s16 areaIndex, s16
         switch (levelNum) {
             case LEVEL_CASTLE: {
                 switch (areaIndex) {
-                    case 1: snprintf(output, 256, "LANTAI UTAMA ISTANA"); break;
-                    case 2: snprintf(output, 256, "LANTAI ATAS ISTANA"); break;
-                    case 3: snprintf(output, 256, "RUBANAH ISTANA"); break;
-                    default: snprintf(output, 256, "Castle Purgatory "); break;
+                    case 1: snprintf(output, 256, "Lantai Utama Istana"); break;
+                    case 2: snprintf(output, 256, "Lantai Atas Istana"); break;
+                    case 3: snprintf(output, 256, "Rubanah Istana"); break;
+                    default: snprintf(output, 256, "Penyucian Istana"); break;
                 }
             } break;
-            case LEVEL_CASTLE_GROUNDS: snprintf(output, 256, "Halaman utama Istana"); break;
+            case LEVEL_CASTLE_GROUNDS: snprintf(output, 256, "Halaman Utama Istana"); break;
             case LEVEL_CASTLE_COURTYARD: snprintf(output, 256, "Halaman Belakang Istana"); break;
             default: snprintf(output, 256, "Istana Peach");
         }
